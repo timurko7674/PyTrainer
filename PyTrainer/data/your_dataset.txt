@@ -38,9 +38,6 @@ Among the cliffs, a secret cave held paintings that moved and breathed. The imag
 
 A small flame flickered in the hollow of an ancient tree, glowing with the colors of the sunset. It was said that the flame held the spirit of the forest’s heart, warming even the coldest nights and inspiring hope where despair had grown.
 
-python
-Копіювати
-Редагувати
 def factorial(n):
     if n == 0 or n == 1:
         return 1
@@ -48,10 +45,7 @@ def factorial(n):
 
 for i in range(5):
     print(f"Factorial of {i} is {factorial(i)}")
-python
-Копіювати
-Редагувати
-# Check if a number is prime
+
 def is_prime(num):
     if num < 2:
         return False
@@ -62,9 +56,7 @@ def is_prime(num):
 
 print(is_prime(17))  # True
 print(is_prime(18))  # False
-python
-Копіювати
-Редагувати
+
 class Spell:
     def __init__(self, name, power):
         self.name = name
@@ -75,48 +67,30 @@ class Spell:
 
 fireball = Spell("Fireball", 50)
 fireball.cast()
-python
-Копіювати
-Редагувати
-# Reading a file
+
 with open('example.txt', 'r') as file:
     content = file.read()
 print(content)
-python
-Копіювати
-Редагувати
-# List comprehension to create a list of squares
+
 squares = [x**2 for x in range(10)]
 print(squares)
-python
-Копіювати
-Редагувати
-# Simple function to reverse a string
+
 def reverse_string(s):
     return s[::-1]
 
 print(reverse_string("magic"))
-python
-Копіювати
-Редагувати
-# Sum elements in a list
+
 numbers = [1, 2, 3, 4, 5]
 total = sum(numbers)
 print(total)
-python
-Копіювати
-Редагувати
-# Dictionary example to store inventory
+
 inventory = {
     'potion': 3,
     'elixir': 5,
     'gold': 100
 }
 print(inventory['potion'])
-python
-Копіювати
-Редагувати
-# Basic error handling
+
 try:
     x = int(input("Enter a number: "))
     print(10 / x)
@@ -124,7 +98,6 @@ except ZeroDivisionError:
     print("Cannot divide by zero!")
 except ValueError:
     print("Invalid input, please enter a number.")
-Data science and computer-related entries:
 
 Data science is the process of extracting insights and knowledge from structured and unstructured data using statistical and computational methods.
 
@@ -160,4 +133,834 @@ Cloud computing platforms such as AWS, Azure, and Google Cloud provide scalable 
 
 Databases store data in structured formats; SQL is a language used to query and manipulate relational databases.
 
-creator: I'm_caca
+Once, beside a shimmering lake surrounded by ancient pines, a wanderer found a smooth stone glowing faintly under the moonlight. When touched, the stone revealed hidden songs of the forest—melodies that healed wounds and calmed restless spirits.
+
+In a valley where mist hugged the earth like a soft blanket, glowing flowers bloomed only at dawn. One morning, a traveler followed their light deep into the mist and discovered a forgotten sanctuary where time slowed.
+
+A quiet path twisted through a meadow where the wind seemed to carry ancient secrets. The path led to a tree whose bark shimmered with silver runes. Anyone who touched the tree could glimpse their future—not as a fixed fate, but as a garden of possibilities.
+
+Hidden beneath the roots of a colossal oak lay a crystal cavern, glowing softly in blues and greens. Those who ventured inside found their fears dissolving in the light, replaced by visions of courage and hope.
+
+At the edge of the desert, where sands whispered of forgotten kingdoms, a lone traveler uncovered a buried relic shimmering beneath the shifting dunes. When raised to the sky, it summoned a mirage of stars, guiding the lost toward a destiny woven in the constellations.
+
+Far beyond the mountains, where clouds rest like pillows, a garden floated on air. Within it bloomed flowers that sang lullabies and trees that breathed dreams. A weary soul who found this place felt all burdens lift, as the garden wrapped them in the embrace of quiet wonder.
+
+By a quiet river, smooth stones glowed with a gentle light when the moon was full. Those who gathered the stones found their memories returned in vivid color, revealing forgotten joys and untold stories hidden deep within their hearts.
+
+Among the ancient ruins covered in ivy, a lantern burned with an eternal flame. It was said to light the way for those who sought truth, but only if their hearts were pure. Those who followed its glow found not just answers, but the courage to face their own shadows.
+
+In the darkest depths of a misty forest, a pool of water reflected not the present, but the possible futures of anyone who gazed into it. The pool whispered choices not yet made, and those brave enough to listen found paths to greatness or gentle lessons in humility.
+
+A quiet dawn revealed a meadow where the dew shimmered like diamonds. There, invisible threads connected the flowers, and anyone who touched a single petal felt the heartbeat of the earth—a rhythm of life, renewal, and endless possibility.
+
+A gentle breeze carried the scent of distant places to a lonely hilltop where stones were arranged in a circle. The stones hummed softly, telling stories of ancient travelers and guiding the curious toward their own journeys of discovery.
+
+Beneath a sky of swirling auroras, a frozen lake hid a secret warmth. Those who ventured onto its surface found the ice would not break, and beneath their feet, life stirred gently, promising hope even in the coldest nights.
+
+An old book, bound in leaves and flowers, was found lying beneath a willow tree. Each page turned revealed not words but scents and sounds—memories of seasons past and futures yet to bloom—reminding its reader that stories live beyond ink and paper.
+
+The stars once fell like rain upon a forgotten plain, leaving behind shards of light embedded in the soil. When the wind caressed them, they sang a chorus of dreams, and those who listened were granted visions of worlds unseen.
+
+In a place where shadows danced with light, a stone circle pulsed with ancient magic. Those who stepped inside felt the pulse echoing their own heartbeat, awakening a deep connection to the earth and the endless sky above.
+
+The morning mist carried whispers of a time before time, guiding the footsteps of those who dared to follow. Each whisper was a thread woven into the fabric of the world, reminding wanderers of the magic stitched into every moment.
+
+A lonely lighthouse stood where the sea met the sky, its light never fading even in the fiercest storms. Travelers said the light was not from fire, but from the heart of the ocean itself, shining to guide lost souls back to hope.
+
+Along a riverbank strewn with fallen petals, a soft glow pulsed beneath the water’s surface. Those who reached in felt their fears dissolve into the current, carried away like driftwood on a journey toward renewal.
+
+Among the cliffs, a secret cave held paintings that moved and breathed. The images told stories of stars and storms, of birth and rebirth, reminding all who saw them that life is a cycle, ever-changing yet eternal.
+
+A small flame flickered in the hollow of an ancient tree, glowing with the colors of the sunset. It was said that the flame held the spirit of the forest’s heart, warming even the coldest nights and inspiring hope where despair had grown.
+
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
+
+for i in range(5):
+    print(f"Factorial of {i} is {factorial(i)}")
+
+def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+print(is_prime(17))  # True
+print(is_prime(18))  # False
+
+class Spell:
+    def __init__(self, name, power):
+        self.name = name
+        self.power = power
+
+    def cast(self):
+        print(f"Casting {self.name} with power {self.power}!")
+
+fireball = Spell("Fireball", 50)
+fireball.cast()
+
+with open('example.txt', 'r') as file:
+    content = file.read()
+print(content)
+
+squares = [x**2 for x in range(10)]
+print(squares)
+
+def reverse_string(s):
+    return s[::-1]
+
+print(reverse_string("magic"))
+
+numbers = [1, 2, 3, 4, 5]
+total = sum(numbers)
+print(total)
+
+inventory = {
+    'potion': 3,
+    'elixir': 5,
+    'gold': 100
+}
+print(inventory['potion'])
+
+try:
+    x = int(input("Enter a number: "))
+    print(10 / x)
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+except ValueError:
+    print("Invalid input, please enter a number.")
+
+Data science is the process of extracting insights and knowledge from structured and unstructured data using statistical and computational methods.
+
+Machine learning is a subset of artificial intelligence that enables systems to learn from data and improve from experience without being explicitly programmed.
+
+A common task in data science is data cleaning, which involves detecting and correcting errors or inconsistencies in data to improve its quality.
+
+Python libraries such as pandas and numpy are widely used for data manipulation and numerical computations.
+
+Pandas provides data structures like DataFrame, which allows for efficient handling of tabular data.
+
+NumPy offers powerful N-dimensional array objects and functions for performing mathematical operations.
+
+Scikit-learn is a popular Python library for implementing machine learning algorithms like classification, regression, and clustering.
+
+A decision tree is a flowchart-like structure used for classification and regression tasks.
+
+Data visualization tools such as Matplotlib and Seaborn help represent data graphically to identify trends and patterns.
+
+The confusion matrix is a performance measurement for classification problems, showing true positives, false positives, true negatives, and false negatives.
+
+Feature engineering is the process of selecting, modifying, or creating features from raw data to improve the performance of machine learning models.
+
+Overfitting occurs when a model learns the training data too well, including noise, leading to poor generalization on new data.
+
+Cross-validation is a technique for assessing how well a model generalizes by dividing data into training and testing sets multiple times.
+
+Natural language processing (NLP) enables machines to understand and interpret human language using computational techniques.
+
+Big data refers to extremely large datasets that require specialized tools and techniques to process efficiently.
+
+Cloud computing platforms such as AWS, Azure, and Google Cloud provide scalable resources for data storage and computation.
+
+Databases store data in structured formats; SQL is a language used to query and manipulate relational databases.
+
+Once, beside a shimmering lake surrounded by ancient pines, a wanderer found a smooth stone glowing faintly under the moonlight. When touched, the stone revealed hidden songs of the forest—melodies that healed wounds and calmed restless spirits.
+
+In a valley where mist hugged the earth like a soft blanket, glowing flowers bloomed only at dawn. One morning, a traveler followed their light deep into the mist and discovered a forgotten sanctuary where time slowed.
+
+A quiet path twisted through a meadow where the wind seemed to carry ancient secrets. The path led to a tree whose bark shimmered with silver runes. Anyone who touched the tree could glimpse their future—not as a fixed fate, but as a garden of possibilities.
+
+Hidden beneath the roots of a colossal oak lay a crystal cavern, glowing softly in blues and greens. Those who ventured inside found their fears dissolving in the light, replaced by visions of courage and hope.
+
+At the edge of the desert, where sands whispered of forgotten kingdoms, a lone traveler uncovered a buried relic shimmering beneath the shifting dunes. When raised to the sky, it summoned a mirage of stars, guiding the lost toward a destiny woven in the constellations.
+
+Far beyond the mountains, where clouds rest like pillows, a garden floated on air. Within it bloomed flowers that sang lullabies and trees that breathed dreams. A weary soul who found this place felt all burdens lift, as the garden wrapped them in the embrace of quiet wonder.
+
+By a quiet river, smooth stones glowed with a gentle light when the moon was full. Those who gathered the stones found their memories returned in vivid color, revealing forgotten joys and untold stories hidden deep within their hearts.
+
+Among the ancient ruins covered in ivy, a lantern burned with an eternal flame. It was said to light the way for those who sought truth, but only if their hearts were pure. Those who followed its glow found not just answers, but the courage to face their own shadows.
+
+In the darkest depths of a misty forest, a pool of water reflected not the present, but the possible futures of anyone who gazed into it. The pool whispered choices not yet made, and those brave enough to listen found paths to greatness or gentle lessons in humility.
+
+A quiet dawn revealed a meadow where the dew shimmered like diamonds. There, invisible threads connected the flowers, and anyone who touched a single petal felt the heartbeat of the earth—a rhythm of life, renewal, and endless possibility.
+
+A gentle breeze carried the scent of distant places to a lonely hilltop where stones were arranged in a circle. The stones hummed softly, telling stories of ancient travelers and guiding the curious toward their own journeys of discovery.
+
+Beneath a sky of swirling auroras, a frozen lake hid a secret warmth. Those who ventured onto its surface found the ice would not break, and beneath their feet, life stirred gently, promising hope even in the coldest nights.
+
+An old book, bound in leaves and flowers, was found lying beneath a willow tree. Each page turned revealed not words but scents and sounds—memories of seasons past and futures yet to bloom—reminding its reader that stories live beyond ink and paper.
+
+The stars once fell like rain upon a forgotten plain, leaving behind shards of light embedded in the soil. When the wind caressed them, they sang a chorus of dreams, and those who listened were granted visions of worlds unseen.
+
+In a place where shadows danced with light, a stone circle pulsed with ancient magic. Those who stepped inside felt the pulse echoing their own heartbeat, awakening a deep connection to the earth and the endless sky above.
+
+The morning mist carried whispers of a time before time, guiding the footsteps of those who dared to follow. Each whisper was a thread woven into the fabric of the world, reminding wanderers of the magic stitched into every moment.
+
+A lonely lighthouse stood where the sea met the sky, its light never fading even in the fiercest storms. Travelers said the light was not from fire, but from the heart of the ocean itself, shining to guide lost souls back to hope.
+
+Along a riverbank strewn with fallen petals, a soft glow pulsed beneath the water’s surface. Those who reached in felt their fears dissolve into the current, carried away like driftwood on a journey toward renewal.
+
+Among the cliffs, a secret cave held paintings that moved and breathed. The images told stories of stars and storms, of birth and rebirth, reminding all who saw them that life is a cycle, ever-changing yet eternal.
+
+A small flame flickered in the hollow of an ancient tree, glowing with the colors of the sunset. It was said that the flame held the spirit of the forest’s heart, warming even the coldest nights and inspiring hope where despair had grown.
+
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
+
+for i in range(5):
+    print(f"Factorial of {i} is {factorial(i)}")
+
+def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+print(is_prime(17))  # True
+print(is_prime(18))  # False
+
+class Spell:
+    def __init__(self, name, power):
+        self.name = name
+        self.power = power
+
+    def cast(self):
+        print(f"Casting {self.name} with power {self.power}!")
+
+fireball = Spell("Fireball", 50)
+fireball.cast()
+
+with open('example.txt', 'r') as file:
+    content = file.read()
+print(content)
+
+squares = [x**2 for x in range(10)]
+print(squares)
+
+def reverse_string(s):
+    return s[::-1]
+
+print(reverse_string("magic"))
+
+numbers = [1, 2, 3, 4, 5]
+total = sum(numbers)
+print(total)
+
+inventory = {
+    'potion': 3,
+    'elixir': 5,
+    'gold': 100
+}
+print(inventory['potion'])
+
+try:
+    x = int(input("Enter a number: "))
+    print(10 / x)
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+except ValueError:
+    print("Invalid input, please enter a number.")
+
+Data science is the process of extracting insights and knowledge from structured and unstructured data using statistical and computational methods.
+
+Machine learning is a subset of artificial intelligence that enables systems to learn from data and improve from experience without being explicitly programmed.
+
+A common task in data science is data cleaning, which involves detecting and correcting errors or inconsistencies in data to improve its quality.
+
+Python libraries such as pandas and numpy are widely used for data manipulation and numerical computations.
+
+Pandas provides data structures like DataFrame, which allows for efficient handling of tabular data.
+
+NumPy offers powerful N-dimensional array objects and functions for performing mathematical operations.
+
+Scikit-learn is a popular Python library for implementing machine learning algorithms like classification, regression, and clustering.
+
+A decision tree is a flowchart-like structure used for classification and regression tasks.
+
+Data visualization tools such as Matplotlib and Seaborn help represent data graphically to identify trends and patterns.
+
+The confusion matrix is a performance measurement for classification problems, showing true positives, false positives, true negatives, and false negatives.
+
+Feature engineering is the process of selecting, modifying, or creating features from raw data to improve the performance of machine learning models.
+
+Overfitting occurs when a model learns the training data too well, including noise, leading to poor generalization on new data.
+
+Cross-validation is a technique for assessing how well a model generalizes by dividing data into training and testing sets multiple times.
+
+Natural language processing (NLP) enables machines to understand and interpret human language using computational techniques.
+
+Big data refers to extremely large datasets that require specialized tools and techniques to process efficiently.
+
+Cloud computing platforms such as AWS, Azure, and Google Cloud provide scalable resources for data storage and computation.
+
+Databases store data in structured formats; SQL is a language used to query and manipulate relational databases.
+
+Once, beside a shimmering lake surrounded by ancient pines, a wanderer found a smooth stone glowing faintly under the moonlight. When touched, the stone revealed hidden songs of the forest—melodies that healed wounds and calmed restless spirits.
+
+In a valley where mist hugged the earth like a soft blanket, glowing flowers bloomed only at dawn. One morning, a traveler followed their light deep into the mist and discovered a forgotten sanctuary where time slowed.
+
+A quiet path twisted through a meadow where the wind seemed to carry ancient secrets. The path led to a tree whose bark shimmered with silver runes. Anyone who touched the tree could glimpse their future—not as a fixed fate, but as a garden of possibilities.
+
+Hidden beneath the roots of a colossal oak lay a crystal cavern, glowing softly in blues and greens. Those who ventured inside found their fears dissolving in the light, replaced by visions of courage and hope.
+
+At the edge of the desert, where sands whispered of forgotten kingdoms, a lone traveler uncovered a buried relic shimmering beneath the shifting dunes. When raised to the sky, it summoned a mirage of stars, guiding the lost toward a destiny woven in the constellations.
+
+Far beyond the mountains, where clouds rest like pillows, a garden floated on air. Within it bloomed flowers that sang lullabies and trees that breathed dreams. A weary soul who found this place felt all burdens lift, as the garden wrapped them in the embrace of quiet wonder.
+
+By a quiet river, smooth stones glowed with a gentle light when the moon was full. Those who gathered the stones found their memories returned in vivid color, revealing forgotten joys and untold stories hidden deep within their hearts.
+
+Among the ancient ruins covered in ivy, a lantern burned with an eternal flame. It was said to light the way for those who sought truth, but only if their hearts were pure. Those who followed its glow found not just answers, but the courage to face their own shadows.
+
+In the darkest depths of a misty forest, a pool of water reflected not the present, but the possible futures of anyone who gazed into it. The pool whispered choices not yet made, and those brave enough to listen found paths to greatness or gentle lessons in humility.
+
+A quiet dawn revealed a meadow where the dew shimmered like diamonds. There, invisible threads connected the flowers, and anyone who touched a single petal felt the heartbeat of the earth—a rhythm of life, renewal, and endless possibility.
+
+A gentle breeze carried the scent of distant places to a lonely hilltop where stones were arranged in a circle. The stones hummed softly, telling stories of ancient travelers and guiding the curious toward their own journeys of discovery.
+
+Beneath a sky of swirling auroras, a frozen lake hid a secret warmth. Those who ventured onto its surface found the ice would not break, and beneath their feet, life stirred gently, promising hope even in the coldest nights.
+
+An old book, bound in leaves and flowers, was found lying beneath a willow tree. Each page turned revealed not words but scents and sounds—memories of seasons past and futures yet to bloom—reminding its reader that stories live beyond ink and paper.
+
+The stars once fell like rain upon a forgotten plain, leaving behind shards of light embedded in the soil. When the wind caressed them, they sang a chorus of dreams, and those who listened were granted visions of worlds unseen.
+
+In a place where shadows danced with light, a stone circle pulsed with ancient magic. Those who stepped inside felt the pulse echoing their own heartbeat, awakening a deep connection to the earth and the endless sky above.
+
+The morning mist carried whispers of a time before time, guiding the footsteps of those who dared to follow. Each whisper was a thread woven into the fabric of the world, reminding wanderers of the magic stitched into every moment.
+
+A lonely lighthouse stood where the sea met the sky, its light never fading even in the fiercest storms. Travelers said the light was not from fire, but from the heart of the ocean itself, shining to guide lost souls back to hope.
+
+Along a riverbank strewn with fallen petals, a soft glow pulsed beneath the water’s surface. Those who reached in felt their fears dissolve into the current, carried away like driftwood on a journey toward renewal.
+
+Among the cliffs, a secret cave held paintings that moved and breathed. The images told stories of stars and storms, of birth and rebirth, reminding all who saw them that life is a cycle, ever-changing yet eternal.
+
+A small flame flickered in the hollow of an ancient tree, glowing with the colors of the sunset. It was said that the flame held the spirit of the forest’s heart, warming even the coldest nights and inspiring hope where despair had grown.
+
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
+
+for i in range(5):
+    print(f"Factorial of {i} is {factorial(i)}")
+
+def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+print(is_prime(17))  # True
+print(is_prime(18))  # False
+
+class Spell:
+    def __init__(self, name, power):
+        self.name = name
+        self.power = power
+
+    def cast(self):
+        print(f"Casting {self.name} with power {self.power}!")
+
+fireball = Spell("Fireball", 50)
+fireball.cast()
+
+with open('example.txt', 'r') as file:
+    content = file.read()
+print(content)
+
+squares = [x**2 for x in range(10)]
+print(squares)
+
+def reverse_string(s):
+    return s[::-1]
+
+print(reverse_string("magic"))
+
+numbers = [1, 2, 3, 4, 5]
+total = sum(numbers)
+print(total)
+
+inventory = {
+    'potion': 3,
+    'elixir': 5,
+    'gold': 100
+}
+print(inventory['potion'])
+
+try:
+    x = int(input("Enter a number: "))
+    print(10 / x)
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+except ValueError:
+    print("Invalid input, please enter a number.")
+
+Data science is the process of extracting insights and knowledge from structured and unstructured data using statistical and computational methods.
+
+Machine learning is a subset of artificial intelligence that enables systems to learn from data and improve from experience without being explicitly programmed.
+
+A common task in data science is data cleaning, which involves detecting and correcting errors or inconsistencies in data to improve its quality.
+
+Python libraries such as pandas and numpy are widely used for data manipulation and numerical computations.
+
+Pandas provides data structures like DataFrame, which allows for efficient handling of tabular data.
+
+NumPy offers powerful N-dimensional array objects and functions for performing mathematical operations.
+
+Scikit-learn is a popular Python library for implementing machine learning algorithms like classification, regression, and clustering.
+
+A decision tree is a flowchart-like structure used for classification and regression tasks.
+
+Data visualization tools such as Matplotlib and Seaborn help represent data graphically to identify trends and patterns.
+
+The confusion matrix is a performance measurement for classification problems, showing true positives, false positives, true negatives, and false negatives.
+
+Feature engineering is the process of selecting, modifying, or creating features from raw data to improve the performance of machine learning models.
+
+Overfitting occurs when a model learns the training data too well, including noise, leading to poor generalization on new data.
+
+Cross-validation is a technique for assessing how well a model generalizes by dividing data into training and testing sets multiple times.
+
+Natural language processing (NLP) enables machines to understand and interpret human language using computational techniques.
+
+Big data refers to extremely large datasets that require specialized tools and techniques to process efficiently.
+
+Cloud computing platforms such as AWS, Azure, and Google Cloud provide scalable resources for data storage and computation.
+
+Databases store data in structured formats; SQL is a language used to query and manipulate relational databases.
+
+Once, beside a shimmering lake surrounded by ancient pines, a wanderer found a smooth stone glowing faintly under the moonlight. When touched, the stone revealed hidden songs of the forest—melodies that healed wounds and calmed restless spirits.
+
+In a valley where mist hugged the earth like a soft blanket, glowing flowers bloomed only at dawn. One morning, a traveler followed their light deep into the mist and discovered a forgotten sanctuary where time slowed.
+
+A quiet path twisted through a meadow where the wind seemed to carry ancient secrets. The path led to a tree whose bark shimmered with silver runes. Anyone who touched the tree could glimpse their future—not as a fixed fate, but as a garden of possibilities.
+
+Hidden beneath the roots of a colossal oak lay a crystal cavern, glowing softly in blues and greens. Those who ventured inside found their fears dissolving in the light, replaced by visions of courage and hope.
+
+At the edge of the desert, where sands whispered of forgotten kingdoms, a lone traveler uncovered a buried relic shimmering beneath the shifting dunes. When raised to the sky, it summoned a mirage of stars, guiding the lost toward a destiny woven in the constellations.
+
+Far beyond the mountains, where clouds rest like pillows, a garden floated on air. Within it bloomed flowers that sang lullabies and trees that breathed dreams. A weary soul who found this place felt all burdens lift, as the garden wrapped them in the embrace of quiet wonder.
+
+By a quiet river, smooth stones glowed with a gentle light when the moon was full. Those who gathered the stones found their memories returned in vivid color, revealing forgotten joys and untold stories hidden deep within their hearts.
+
+Among the ancient ruins covered in ivy, a lantern burned with an eternal flame. It was said to light the way for those who sought truth, but only if their hearts were pure. Those who followed its glow found not just answers, but the courage to face their own shadows.
+
+In the darkest depths of a misty forest, a pool of water reflected not the present, but the possible futures of anyone who gazed into it. The pool whispered choices not yet made, and those brave enough to listen found paths to greatness or gentle lessons in humility.
+
+A quiet dawn revealed a meadow where the dew shimmered like diamonds. There, invisible threads connected the flowers, and anyone who touched a single petal felt the heartbeat of the earth—a rhythm of life, renewal, and endless possibility.
+
+A gentle breeze carried the scent of distant places to a lonely hilltop where stones were arranged in a circle. The stones hummed softly, telling stories of ancient travelers and guiding the curious toward their own journeys of discovery.
+
+Beneath a sky of swirling auroras, a frozen lake hid a secret warmth. Those who ventured onto its surface found the ice would not break, and beneath their feet, life stirred gently, promising hope even in the coldest nights.
+
+An old book, bound in leaves and flowers, was found lying beneath a willow tree. Each page turned revealed not words but scents and sounds—memories of seasons past and futures yet to bloom—reminding its reader that stories live beyond ink and paper.
+
+The stars once fell like rain upon a forgotten plain, leaving behind shards of light embedded in the soil. When the wind caressed them, they sang a chorus of dreams, and those who listened were granted visions of worlds unseen.
+
+In a place where shadows danced with light, a stone circle pulsed with ancient magic. Those who stepped inside felt the pulse echoing their own heartbeat, awakening a deep connection to the earth and the endless sky above.
+
+The morning mist carried whispers of a time before time, guiding the footsteps of those who dared to follow. Each whisper was a thread woven into the fabric of the world, reminding wanderers of the magic stitched into every moment.
+
+A lonely lighthouse stood where the sea met the sky, its light never fading even in the fiercest storms. Travelers said the light was not from fire, but from the heart of the ocean itself, shining to guide lost souls back to hope.
+
+Along a riverbank strewn with fallen petals, a soft glow pulsed beneath the water’s surface. Those who reached in felt their fears dissolve into the current, carried away like driftwood on a journey toward renewal.
+
+Among the cliffs, a secret cave held paintings that moved and breathed. The images told stories of stars and storms, of birth and rebirth, reminding all who saw them that life is a cycle, ever-changing yet eternal.
+
+A small flame flickered in the hollow of an ancient tree, glowing with the colors of the sunset. It was said that the flame held the spirit of the forest’s heart, warming even the coldest nights and inspiring hope where despair had grown.
+
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
+
+for i in range(5):
+    print(f"Factorial of {i} is {factorial(i)}")
+
+def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+print(is_prime(17))  # True
+print(is_prime(18))  # False
+
+class Spell:
+    def __init__(self, name, power):
+        self.name = name
+        self.power = power
+
+    def cast(self):
+        print(f"Casting {self.name} with power {self.power}!")
+
+fireball = Spell("Fireball", 50)
+fireball.cast()
+
+with open('example.txt', 'r') as file:
+    content = file.read()
+print(content)
+
+squares = [x**2 for x in range(10)]
+print(squares)
+
+def reverse_string(s):
+    return s[::-1]
+
+print(reverse_string("magic"))
+
+numbers = [1, 2, 3, 4, 5]
+total = sum(numbers)
+print(total)
+
+inventory = {
+    'potion': 3,
+    'elixir': 5,
+    'gold': 100
+}
+print(inventory['potion'])
+
+try:
+    x = int(input("Enter a number: "))
+    print(10 / x)
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+except ValueError:
+    print("Invalid input, please enter a number.")
+
+Data science is the process of extracting insights and knowledge from structured and unstructured data using statistical and computational methods.
+
+Machine learning is a subset of artificial intelligence that enables systems to learn from data and improve from experience without being explicitly programmed.
+
+A common task in data science is data cleaning, which involves detecting and correcting errors or inconsistencies in data to improve its quality.
+
+Python libraries such as pandas and numpy are widely used for data manipulation and numerical computations.
+
+Pandas provides data structures like DataFrame, which allows for efficient handling of tabular data.
+
+NumPy offers powerful N-dimensional array objects and functions for performing mathematical operations.
+
+Scikit-learn is a popular Python library for implementing machine learning algorithms like classification, regression, and clustering.
+
+A decision tree is a flowchart-like structure used for classification and regression tasks.
+
+Data visualization tools such as Matplotlib and Seaborn help represent data graphically to identify trends and patterns.
+
+The confusion matrix is a performance measurement for classification problems, showing true positives, false positives, true negatives, and false negatives.
+
+Feature engineering is the process of selecting, modifying, or creating features from raw data to improve the performance of machine learning models.
+
+Overfitting occurs when a model learns the training data too well, including noise, leading to poor generalization on new data.
+
+Cross-validation is a technique for assessing how well a model generalizes by dividing data into training and testing sets multiple times.
+
+Natural language processing (NLP) enables machines to understand and interpret human language using computational techniques.
+
+Big data refers to extremely large datasets that require specialized tools and techniques to process efficiently.
+
+Cloud computing platforms such as AWS, Azure, and Google Cloud provide scalable resources for data storage and computation.
+
+Databases store data in structured formats; SQL is a language used to query and manipulate relational databases.
+
+Once, beside a shimmering lake surrounded by ancient pines, a wanderer found a smooth stone glowing faintly under the moonlight. When touched, the stone revealed hidden songs of the forest—melodies that healed wounds and calmed restless spirits.
+
+In a valley where mist hugged the earth like a soft blanket, glowing flowers bloomed only at dawn. One morning, a traveler followed their light deep into the mist and discovered a forgotten sanctuary where time slowed.
+
+A quiet path twisted through a meadow where the wind seemed to carry ancient secrets. The path led to a tree whose bark shimmered with silver runes. Anyone who touched the tree could glimpse their future—not as a fixed fate, but as a garden of possibilities.
+
+Hidden beneath the roots of a colossal oak lay a crystal cavern, glowing softly in blues and greens. Those who ventured inside found their fears dissolving in the light, replaced by visions of courage and hope.
+
+At the edge of the desert, where sands whispered of forgotten kingdoms, a lone traveler uncovered a buried relic shimmering beneath the shifting dunes. When raised to the sky, it summoned a mirage of stars, guiding the lost toward a destiny woven in the constellations.
+
+Far beyond the mountains, where clouds rest like pillows, a garden floated on air. Within it bloomed flowers that sang lullabies and trees that breathed dreams. A weary soul who found this place felt all burdens lift, as the garden wrapped them in the embrace of quiet wonder.
+
+By a quiet river, smooth stones glowed with a gentle light when the moon was full. Those who gathered the stones found their memories returned in vivid color, revealing forgotten joys and untold stories hidden deep within their hearts.
+
+Among the ancient ruins covered in ivy, a lantern burned with an eternal flame. It was said to light the way for those who sought truth, but only if their hearts were pure. Those who followed its glow found not just answers, but the courage to face their own shadows.
+
+In the darkest depths of a misty forest, a pool of water reflected not the present, but the possible futures of anyone who gazed into it. The pool whispered choices not yet made, and those brave enough to listen found paths to greatness or gentle lessons in humility.
+
+A quiet dawn revealed a meadow where the dew shimmered like diamonds. There, invisible threads connected the flowers, and anyone who touched a single petal felt the heartbeat of the earth—a rhythm of life, renewal, and endless possibility.
+
+A gentle breeze carried the scent of distant places to a lonely hilltop where stones were arranged in a circle. The stones hummed softly, telling stories of ancient travelers and guiding the curious toward their own journeys of discovery.
+
+Beneath a sky of swirling auroras, a frozen lake hid a secret warmth. Those who ventured onto its surface found the ice would not break, and beneath their feet, life stirred gently, promising hope even in the coldest nights.
+
+An old book, bound in leaves and flowers, was found lying beneath a willow tree. Each page turned revealed not words but scents and sounds—memories of seasons past and futures yet to bloom—reminding its reader that stories live beyond ink and paper.
+
+The stars once fell like rain upon a forgotten plain, leaving behind shards of light embedded in the soil. When the wind caressed them, they sang a chorus of dreams, and those who listened were granted visions of worlds unseen.
+
+In a place where shadows danced with light, a stone circle pulsed with ancient magic. Those who stepped inside felt the pulse echoing their own heartbeat, awakening a deep connection to the earth and the endless sky above.
+
+The morning mist carried whispers of a time before time, guiding the footsteps of those who dared to follow. Each whisper was a thread woven into the fabric of the world, reminding wanderers of the magic stitched into every moment.
+
+A lonely lighthouse stood where the sea met the sky, its light never fading even in the fiercest storms. Travelers said the light was not from fire, but from the heart of the ocean itself, shining to guide lost souls back to hope.
+
+Along a riverbank strewn with fallen petals, a soft glow pulsed beneath the water’s surface. Those who reached in felt their fears dissolve into the current, carried away like driftwood on a journey toward renewal.
+
+Among the cliffs, a secret cave held paintings that moved and breathed. The images told stories of stars and storms, of birth and rebirth, reminding all who saw them that life is a cycle, ever-changing yet eternal.
+
+A small flame flickered in the hollow of an ancient tree, glowing with the colors of the sunset. It was said that the flame held the spirit of the forest’s heart, warming even the coldest nights and inspiring hope where despair had grown.
+
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
+
+for i in range(5):
+    print(f"Factorial of {i} is {factorial(i)}")
+
+def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+print(is_prime(17))  # True
+print(is_prime(18))  # False
+
+class Spell:
+    def __init__(self, name, power):
+        self.name = name
+        self.power = power
+
+    def cast(self):
+        print(f"Casting {self.name} with power {self.power}!")
+
+fireball = Spell("Fireball", 50)
+fireball.cast()
+
+with open('example.txt', 'r') as file:
+    content = file.read()
+print(content)
+
+squares = [x**2 for x in range(10)]
+print(squares)
+
+def reverse_string(s):
+    return s[::-1]
+
+print(reverse_string("magic"))
+
+numbers = [1, 2, 3, 4, 5]
+total = sum(numbers)
+print(total)
+
+inventory = {
+    'potion': 3,
+    'elixir': 5,
+    'gold': 100
+}
+print(inventory['potion'])
+
+try:
+    x = int(input("Enter a number: "))
+    print(10 / x)
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+except ValueError:
+    print("Invalid input, please enter a number.")
+
+Data science is the process of extracting insights and knowledge from structured and unstructured data using statistical and computational methods.
+
+Machine learning is a subset of artificial intelligence that enables systems to learn from data and improve from experience without being explicitly programmed.
+
+A common task in data science is data cleaning, which involves detecting and correcting errors or inconsistencies in data to improve its quality.
+
+Python libraries such as pandas and numpy are widely used for data manipulation and numerical computations.
+
+Pandas provides data structures like DataFrame, which allows for efficient handling of tabular data.
+
+NumPy offers powerful N-dimensional array objects and functions for performing mathematical operations.
+
+Scikit-learn is a popular Python library for implementing machine learning algorithms like classification, regression, and clustering.
+
+A decision tree is a flowchart-like structure used for classification and regression tasks.
+
+Data visualization tools such as Matplotlib and Seaborn help represent data graphically to identify trends and patterns.
+
+The confusion matrix is a performance measurement for classification problems, showing true positives, false positives, true negatives, and false negatives.
+
+Feature engineering is the process of selecting, modifying, or creating features from raw data to improve the performance of machine learning models.
+
+Overfitting occurs when a model learns the training data too well, including noise, leading to poor generalization on new data.
+
+Cross-validation is a technique for assessing how well a model generalizes by dividing data into training and testing sets multiple times.
+
+Natural language processing (NLP) enables machines to understand and interpret human language using computational techniques.
+
+Big data refers to extremely large datasets that require specialized tools and techniques to process efficiently.
+
+Cloud computing platforms such as AWS, Azure, and Google Cloud provide scalable resources for data storage and computation.
+
+Databases store data in structured formats; SQL is a language used to query and manipulate relational databases.
+
+Once, beside a shimmering lake surrounded by ancient pines, a wanderer found a smooth stone glowing faintly under the moonlight. When touched, the stone revealed hidden songs of the forest—melodies that healed wounds and calmed restless spirits.
+
+In a valley where mist hugged the earth like a soft blanket, glowing flowers bloomed only at dawn. One morning, a traveler followed their light deep into the mist and discovered a forgotten sanctuary where time slowed.
+
+A quiet path twisted through a meadow where the wind seemed to carry ancient secrets. The path led to a tree whose bark shimmered with silver runes. Anyone who touched the tree could glimpse their future—not as a fixed fate, but as a garden of possibilities.
+
+Hidden beneath the roots of a colossal oak lay a crystal cavern, glowing softly in blues and greens. Those who ventured inside found their fears dissolving in the light, replaced by visions of courage and hope.
+
+At the edge of the desert, where sands whispered of forgotten kingdoms, a lone traveler uncovered a buried relic shimmering beneath the shifting dunes. When raised to the sky, it summoned a mirage of stars, guiding the lost toward a destiny woven in the constellations.
+
+Far beyond the mountains, where clouds rest like pillows, a garden floated on air. Within it bloomed flowers that sang lullabies and trees that breathed dreams. A weary soul who found this place felt all burdens lift, as the garden wrapped them in the embrace of quiet wonder.
+
+By a quiet river, smooth stones glowed with a gentle light when the moon was full. Those who gathered the stones found their memories returned in vivid color, revealing forgotten joys and untold stories hidden deep within their hearts.
+
+Among the ancient ruins covered in ivy, a lantern burned with an eternal flame. It was said to light the way for those who sought truth, but only if their hearts were pure. Those who followed its glow found not just answers, but the courage to face their own shadows.
+
+In the darkest depths of a misty forest, a pool of water reflected not the present, but the possible futures of anyone who gazed into it. The pool whispered choices not yet made, and those brave enough to listen found paths to greatness or gentle lessons in humility.
+
+A quiet dawn revealed a meadow where the dew shimmered like diamonds. There, invisible threads connected the flowers, and anyone who touched a single petal felt the heartbeat of the earth—a rhythm of life, renewal, and endless possibility.
+
+A gentle breeze carried the scent of distant places to a lonely hilltop where stones were arranged in a circle. The stones hummed softly, telling stories of ancient travelers and guiding the curious toward their own journeys of discovery.
+
+Beneath a sky of swirling auroras, a frozen lake hid a secret warmth. Those who ventured onto its surface found the ice would not break, and beneath their feet, life stirred gently, promising hope even in the coldest nights.
+
+An old book, bound in leaves and flowers, was found lying beneath a willow tree. Each page turned revealed not words but scents and sounds—memories of seasons past and futures yet to bloom—reminding its reader that stories live beyond ink and paper.
+
+The stars once fell like rain upon a forgotten plain, leaving behind shards of light embedded in the soil. When the wind caressed them, they sang a chorus of dreams, and those who listened were granted visions of worlds unseen.
+
+In a place where shadows danced with light, a stone circle pulsed with ancient magic. Those who stepped inside felt the pulse echoing their own heartbeat, awakening a deep connection to the earth and the endless sky above.
+
+The morning mist carried whispers of a time before time, guiding the footsteps of those who dared to follow. Each whisper was a thread woven into the fabric of the world, reminding wanderers of the magic stitched into every moment.
+
+A lonely lighthouse stood where the sea met the sky, its light never fading even in the fiercest storms. Travelers said the light was not from fire, but from the heart of the ocean itself, shining to guide lost souls back to hope.
+
+Along a riverbank strewn with fallen petals, a soft glow pulsed beneath the water’s surface. Those who reached in felt their fears dissolve into the current, carried away like driftwood on a journey toward renewal.
+
+Among the cliffs, a secret cave held paintings that moved and breathed. The images told stories of stars and storms, of birth and rebirth, reminding all who saw them that life is a cycle, ever-changing yet eternal.
+
+A small flame flickered in the hollow of an ancient tree, glowing with the colors of the sunset. It was said that the flame held the spirit of the forest’s heart, warming even the coldest nights and inspiring hope where despair had grown.
+
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
+
+for i in range(5):
+    print(f"Factorial of {i} is {factorial(i)}")
+
+def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+print(is_prime(17))  # True
+print(is_prime(18))  # False
+
+class Spell:
+    def __init__(self, name, power):
+        self.name = name
+        self.power = power
+
+    def cast(self):
+        print(f"Casting {self.name} with power {self.power}!")
+
+fireball = Spell("Fireball", 50)
+fireball.cast()
+
+with open('example.txt', 'r') as file:
+    content = file.read()
+print(content)
+
+squares = [x**2 for x in range(10)]
+print(squares)
+
+def reverse_string(s):
+    return s[::-1]
+
+print(reverse_string("magic"))
+
+numbers = [1, 2, 3, 4, 5]
+total = sum(numbers)
+print(total)
+
+inventory = {
+    'potion': 3,
+    'elixir': 5,
+    'gold': 100
+}
+print(inventory['potion'])
+
+try:
+    x = int(input("Enter a number: "))
+    print(10 / x)
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+except ValueError:
+    print("Invalid input, please enter a number.")
+
+Data science is the process of extracting insights and knowledge from structured and unstructured data using statistical and computational methods.
+
+Machine learning is a subset of artificial intelligence that enables systems to learn from data and improve from experience without being explicitly programmed.
+
+A common task in data science is data cleaning, which involves detecting and correcting errors or inconsistencies in data to improve its quality.
+
+Python libraries such as pandas and numpy are widely used for data manipulation and numerical computations.
+
+Pandas provides data structures like DataFrame, which allows for efficient handling of tabular data.
+
+NumPy offers powerful N-dimensional array objects and functions for performing mathematical operations.
+
+Scikit-learn is a popular Python library for implementing machine learning algorithms like classification, regression, and clustering.
+
+A decision tree is a flowchart-like structure used for classification and regression tasks.
+
+Data visualization tools such as Matplotlib and Seaborn help represent data graphically to identify trends and patterns.
+
+The confusion matrix is a performance measurement for classification problems, showing true positives, false positives, true negatives, and false negatives.
+
+Feature engineering is the process of selecting, modifying, or creating features from raw data to improve the performance of machine learning models.
+
+Overfitting occurs when a model learns the training data too well, including noise, leading to poor generalization on new data.
+
+Cross-validation is a technique for assessing how well a model generalizes by dividing data into training and testing sets multiple times.
+
+Natural language processing (NLP) enables machines to understand and interpret human language using computational techniques.
+
+Big data refers to extremely large datasets that require specialized tools and techniques to process efficiently.
+
+Cloud computing platforms such as AWS, Azure, and Google Cloud provide scalable resources for data storage and computation.
+
+Databases store data in structured formats; SQL is a language used to query and manipulate relational databases.
+
+Once, beside a shimmering lake surrounded by ancient pines, a wanderer found a smooth stone glowing faintly under the moonlight. When touched, the stone revealed hidden songs of the forest—melodies that healed wounds and calmed restless spirits.
+
+In a valley where mist hugged the earth like a soft blanket, glowing flowers bloomed only at dawn. One morning, a traveler followed their light deep into the mist and discovered a forgotten sanctuary where time slowed.
+
+A quiet path twisted through a meadow where the wind seemed to carry ancient secrets. The path led to a tree whose bark shimmered with silver runes. Anyone who touched the tree could glimpse their future—not as a fixed fate, but as a garden of possibilities.
+
+Hidden beneath the roots of a colossal oak lay a crystal cavern, glowing softly in blues and greens. Those who ventured inside found their fears dissolving in the light, replaced by visions of courage and hope.
+
+At the edge of the desert, where sands whispered of forgotten kingdoms, a lone traveler uncovered a buried relic shimmering beneath the shifting dunes. When raised to the sky, it summoned a mirage of stars, guiding the lost toward a destiny woven in the constellations.
+
+Far beyond the mountains, where clouds rest like pillows, a garden floated on air. Within it bloomed flowers that sang lullabies and trees that breathed dreams. A weary soul who found this place felt all burdens lift, as the garden wrapped them in the embrace of quiet wonder.
+
+By a quiet river, smooth stones glowed with a gentle light when the moon was full. Those who gathered the stones found their memories returned in vivid color, revealing forgotten joys and untold stories hidden deep within their hearts.
+
+Among the ancient ruins covered in ivy, a lantern burned with an eternal flame. It was said to light the way for those who sought truth, but only if their hearts were pure. Those who followed its glow found not just answers, but the courage to face their own shadows.
+
+In the darkest depths of a misty forest, a pool of water reflected not the present, but the possible futures of anyone who gazed into it. The pool whispered choices not yet made, and those brave enough to listen found paths to greatness or gentle lessons in humility.
+
+A quiet dawn revealed a meadow where the dew shimmered like diamonds. There, invisible threads connected the flowers, and anyone who touched a single petal felt the heartbeat of the earth—a rhythm of life, renewal, and endless possibility.
+
+Creator: I'm_caca
